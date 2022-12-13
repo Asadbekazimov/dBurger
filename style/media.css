@@ -1,0 +1,35 @@
+@media (max-width: 1400px) {
+  .nav {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 1200px) {
+  .menu__content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .menu__item {
+    width: 40%;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 1100px) {
+  .view > img {
+    width: 100%;
+  }
+  .view {
+    padding: 0 15px;
+  }
+}
+
+@media print{
+  .print{
+    display: flex;
+
+  }
+  .wrapper{
+    display: none;
+  }
+}
